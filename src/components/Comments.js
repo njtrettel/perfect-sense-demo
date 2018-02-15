@@ -15,7 +15,7 @@ const Comments = (props) => {
         ))}
       </div>
       <div className="post__comments--form">
-        <form onSubmit={props.comment}>
+        <form id="comment-form" onSubmit={props.comment}>
           <textarea className="form__comment" name="comment" placeholder="Enter your comment here" />
           <button className="form__submit" type="submit">Comment</button>
         </form>

@@ -6,6 +6,8 @@ import Comments from './Comments';
 const comment = (e, action, title) => {
   e.preventDefault();
   action(title, e.target.comment.value);
+  const form = document.getElementById('comment-form');
+  form.reset();
 };
 
 const Post = (props) => {
