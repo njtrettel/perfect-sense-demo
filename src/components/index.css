@@ -1,0 +1,159 @@
+html {
+  font-size: 16px;
+  background-color: #FAFAFA;
+}
+body {
+  margin: 8px 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 2rem;
+}
+
+.header__links {
+  font-size: 1.25rem;
+  background-color: #555;
+}
+
+/* NAV-BAR */
+.nav-bar {
+  display: flex;
+  width: 50%;
+  max-width: 750px;
+  margin: 20px auto;
+}
+
+.nav-bar__link {
+  color: white !important;
+  flex-grow: 1;
+  padding: 15px 0;
+}
+
+.nav-bar__link--active {
+  text-decoration: underline;
+  text-decoration-color: 	#00CED1;
+}
+
+/* POST-CONTAINER */
+.post-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem;
+  display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+  flex-grow: 1;
+  max-width: 200px;
+  margin: 0 1.4rem;
+  padding-right: .5rem;
+  border-right: 2px solid #999;
+}
+
+.sidebar__title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.sidebar__post {
+  margin-bottom: 1rem;
+}
+
+.sidebar__post--title {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.sidebar__post--image > img {
+  width: 100%;
+}
+
+/* POST */
+.post {
+  flex-grow: 2;
+  max-width: 1000px;
+}
+
+.post--loading {
+  min-height: 10rem;
+  min-width: 10rem;
+}
+
+.post__title {
+  font-size: 3rem;
+}
+
+.post__meta {
+  padding-right: 1rem;
+}
+
+.post__image {
+  margin: 1rem 0;
+}
+
+.post__image > img {
+  max-width: 500px;
+}
+
+.post__image--source {
+  font-size: .9rem;
+  font-style: italic;
+}
+
+.post__content {
+  font-size: 1.1rem;
+}
+
+/* COMMENTS */
+.post__comments--title {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.post__comments--content {
+  margin-left: 2rem;
+}
+
+.post__comments--form {
+  margin: 2rem 0 0 2rem;
+}
+
+.comment {
+  margin-bottom: 1rem;
+}
+
+.comment__author {
+  font-weight: bold;
+}
+
+.comment__divider {
+  opacity: .3;
+}
+
+.form__comment {
+  width: 500px;
+}
+
+.form__submit {
+  display: block;
+  padding: .5rem 1rem;
+  font-weight: bold;
+}

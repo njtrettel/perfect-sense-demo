@@ -1,0 +1,6 @@
+dist/
+.cache
+node_modules
+*.pem
+package-lock.json
+githubkey

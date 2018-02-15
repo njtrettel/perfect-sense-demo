@@ -1,0 +1,31 @@
+{
+  "name": "perfect-sense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "parcel build index.html --out-dir public/dist --public-url /dist --no-minify",
+    "watch": "parcel watch index.html --out-dir public/dist --public-url /dist",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "classnames": "^2.2.5",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "lodash": "^4.17.5",
+    "parcel-bundler": "^1.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-react": "^0.78.2"
+  }
+}
