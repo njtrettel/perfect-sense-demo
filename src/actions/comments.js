@@ -77,7 +77,6 @@ export const comment = (title, content) => (dispatch, getState) => {
     },
     content
   };
-  console.log('commenting', title, content, date);
   dispatch(commentAction(title));
   return axios.put(`/api/comments/${title}`, { comment })
     .then(

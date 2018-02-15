@@ -45,7 +45,6 @@ const getCommentsByPost = (postId) => {
 };
 
 const commentOnPost = (postId, comment) => {
-  console.log('commenting on post', comment);
   const newComments = _.concat(database.comments, comment);
   database.comments = newComments;
   const commentsForPost = _.filter(database.comments, { postId });
